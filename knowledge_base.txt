@@ -1,0 +1,13 @@
+About NextusAI:
+NextusAI is a cutting-edge European AI marketplace and platform that connects businesses with specialized autonomous agents and custom generative AI microservices.
+
+Pricing and Plans:
+- Starter Tier: Free for up to 1,000 API requests per month with standard latency.
+- Growth Tier: €49 per month, includes up to 50,000 API calls, dedicated vector database indexes, and email support.
+- Enterprise Tier: Custom pricing, offering unlimited API throughput, multi-region deployment, SLA 99.9%, and custom agent development.
+
+Security and Compliance:
+All data processed within NextusAI is fully GDPR compliant. Data in transit is encrypted using TLS 1.3, and data at rest uses AES-256 encryption. Customer data is never used to train third-party public foundation models.
+
+Supported Integrations:
+NextusAI seamlessly integrates with FastAPI backends, LangChain / LangGraph orchestration workflows, Pinecone, ChromaDB, and React-based frontends via standard REST and WebSocket endpoints.
