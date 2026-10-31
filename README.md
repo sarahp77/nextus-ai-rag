@@ -4,6 +4,26 @@ A lightweight and robust Retrieval-Augmented Generation (RAG) backend service bu
 
 This microservice ingests enterprise documents, indexes them into a local vector database, and uses semantic search combined with strict prompt grounding to answer user queries accurately without hallucination.
 
+---
+## 📸 Screenshots & Demo
+
+### 1. Interactive API Documentation (Swagger UI)
+
+![Swagger UI Documentation](images/swagger-docs.png)
+
+---
+
+### 2. Testing the POST Endpoint (Request)
+
+![API Request Example](images/api-request.png)
+
+---
+
+### 3. Agent Response (RAG Output)
+
+![RAG Response Example](images/api-response.png)
+
+
 ## Tech Stack
 
 - **Framework:** FastAPI, Uvicorn
@@ -33,8 +53,8 @@ nexus-ai-rag/
 ```bash
 git clone https://github.com/sarahp77/nextus-ai-rag.git
 cd nexus-ai-rag
-```
 python -m venv venv
+```
 # On Windows:
 .\venv\Scripts\activate
 # On macOS/Linux:
@@ -58,7 +78,6 @@ python rag_service.py
 ```bash
 uvicorn main:app --reload
 ```
-
 The server will start at `http://127.0.0.1:8000`. You can access the interactive Swagger documentation at `http://127.0.0.1:8000/docs`.
 
 ---
