@@ -7,7 +7,14 @@ This microservice ingests enterprise documents, indexes them into a local vector
 ---
 ## 📸 Screenshots & Demo
 
+## 🎥 System Demo
+
+![NexusAI in Action](images/demovid.gif)
+
+##  Final Result ![Demo](images/demo.png)
+
 ### 1. Interactive API Documentation (Swagger UI)
+
 
 ![Swagger UI Documentation](images/swagger-docs.png)
 
